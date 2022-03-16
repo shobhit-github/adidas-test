@@ -28,6 +28,7 @@ The API should have the following endpoints:
 
 ### **Evaluation:**
 - [ ] There should be **at least** one test written and the README file should include instructions on how to execute it.
+- [ ] You should provide clear documentation of the API, you can use Swagger or any other format.
 - [ ] The app should build without errors (typically using `npm run build`). If there are necessary steps required to get it to compile, those should be covered in the README.md.
 - [ ] No crashes or bugs.
 - [ ] Code is easily understood and communicative (eg. comments, variable names, etc). 
