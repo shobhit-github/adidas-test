@@ -21,9 +21,9 @@ The API should have the following endpoints:
 -----
 
 ### **How to share your results?**
-- [ ] Clone this repository and create your own branch to work on.
+- [ ] Clone this repository to your private account.
 - [ ] .... develop .....
-- [ ] Once you are ready, create a pull request with your code.
+- [ ] Once you are ready, create a pull request with your code to the original repository.
 
 
 ### **Evaluation:**
