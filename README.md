@@ -2,7 +2,7 @@
 
 ### **High level spec**
 
-Your task is to build a REST API in Node.js that returns data from sqlite database.
+Your task is to build a REST API in TypeScript using Node.js that returns data from sqlite database.
 
 The `database.sqli` file is a database that includes 3 tables:
 - *users* - each row represnts a single user
