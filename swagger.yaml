@@ -1,0 +1,58 @@
+openapi: 3.0.0
+info:
+	title: AdidasTest
+	version: 1.0.0
+servers:
+	- url: http://localhost:3000
+paths:
+	/users/{id}:
+		get:
+			tags:
+				- User
+			summary: getUserById
+			parameters:
+				-
+					name: id
+					in: path
+					required: true
+					schema:
+						type: number
+			responses:
+				'200':
+					description: Successful response
+					content:
+						application/json: {}
+	/users/{id}/albums:
+		get:
+			tags:
+				- User
+			summary: getUserAndAlbumById
+			parameters:
+				-
+					name: id
+					in: path
+					required: true
+					schema:
+						type: number
+			responses:
+				'200':
+					description: Successful response
+					content:
+						application/json: {}
+	/users/{id}/images:
+		get:
+			tags:
+				- User
+			summary: getAlbumAndImageById
+			parameters:
+				-
+					name: id
+					in: path
+					required: true
+					schema:
+						type: number
+			responses:
+				'200':
+					description: Successful response
+					content:
+						application/json: {}

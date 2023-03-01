@@ -1,0 +1,11 @@
+{
+  "Application": {
+    "EXPRESS_PORT": 3000
+  },
+  "Database": {
+    "type": "sqlite",
+    "database": "database.db",
+    "synchronize": true,
+    "logging": false
+  }
+}
